@@ -32,7 +32,7 @@ public class StringsTest {
     @Test
     public void given_split__then_returns_array_of_strings() {
         String expected = "[Ljava.lang.String;";
-        var sut = "eddie would go".split(" ");
+        var sut = s.split(" ");
         assertEquals(expected, sut.getClass().getName());
     }
 }
